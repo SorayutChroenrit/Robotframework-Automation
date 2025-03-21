@@ -32,7 +32,7 @@ TC002 LOGIN WITH ONLY EMAIL
     Sleep    2
     Capture Page Screenshot
 
-# # Sorayut 
+# Sorayut 
 TC003 LOGIN WITH ONLY PASSWORD
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
@@ -80,6 +80,7 @@ TC005 LOGIN WITH INCORRECT EMAIL FORMAT
     Capture Page Screenshot
     Sleep    2
     Capture Page Screenshot
+
 # Sorayut 
 TC006 LOGIN WITH INCORRECT EMAIL PASSWORD
     Open Browser    http://localhost:3000   Chrome
@@ -247,6 +248,32 @@ TC013 REGISTER WITH ALREADY EXISTS PHONENUMBER BTRADER ACCOUNT
     Input Password  password    securePassword123
     Capture Page Screenshot
     Input Password  confirmpassword    securePassword123
+    Capture Page Screenshot
+    Click Button    id:submitbutton
+    Capture Page Screenshot  
+    Sleep    2
+    Capture Page Screenshot  
+
+TC014 REGISTER WITH MISSMATCH PASSWORD BTRADER ACCOUNT 
+    Open Browser    http://localhost:3000   Chrome
+    Maximize Browser Window
+    Capture Page Screenshot    
+    Click Button    id:signup
+    Capture Page Screenshot    
+    Sleep    2
+    Input Text  fullname    John Doe    
+    Capture Page Screenshot
+    Input Text  email    Johndoez201@example.com    
+    Capture Page Screenshot
+    Input Text  idcard    1813232445692    
+    Capture Page Screenshot
+    Input Text  company    Microsoft    
+    Capture Page Screenshot
+    Input Text  phonenumber    0629360257 
+    Capture Page Screenshot
+    Input Password  password    securePassword123
+    Capture Page Screenshot
+    Input Password  confirmpassword    securePassword
     Capture Page Screenshot
     Click Button    id:submitbutton
     Capture Page Screenshot  
