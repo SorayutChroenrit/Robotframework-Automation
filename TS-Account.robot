@@ -3,6 +3,8 @@ Documentation     Account
 Library           SeleniumLibrary
 
 *** Test Cases ***
+
+# Sorayut 
 TC01 REGISTER BTRADER ACCOUNT
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
