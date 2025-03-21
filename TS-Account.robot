@@ -5,7 +5,7 @@ Library           SeleniumLibrary
 *** Test Cases ***
 
 # Sorayut  
-TC01 LOGIN WITHOUT EMAIL PASSWORD
+TC001 LOGIN WITHOUT EMAIL PASSWORD
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot
@@ -17,8 +17,8 @@ TC01 LOGIN WITHOUT EMAIL PASSWORD
     Sleep    2
     Capture Page Screenshot
     
-# # Sorayut 
-TC02 LOGIN WITH ONLY EMAIL 
+# Sorayut 
+TC002 LOGIN WITH ONLY EMAIL 
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot
@@ -33,7 +33,7 @@ TC02 LOGIN WITH ONLY EMAIL
     Capture Page Screenshot
 
 # # Sorayut 
-TC03 LOGIN WITH ONLY PASSWORD
+TC003 LOGIN WITH ONLY PASSWORD
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot
@@ -48,7 +48,7 @@ TC03 LOGIN WITH ONLY PASSWORD
     Capture Page Screenshot
 
 # # Sorayut  
-TC04 LOGIN WITH EMAIL PASSWORD BUT PASSWORD LOWER THAN 8 DIGIT
+TC004 LOGIN WITH EMAIL PASSWORD BUT PASSWORD LOWER THAN 8 DIGIT
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot
@@ -65,7 +65,7 @@ TC04 LOGIN WITH EMAIL PASSWORD BUT PASSWORD LOWER THAN 8 DIGIT
     Capture Page Screenshot
 
 # Sorayut
-TC05 LOGIN WITH INCORRECT EMAIL FORMAT 
+TC005 LOGIN WITH INCORRECT EMAIL FORMAT 
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot
@@ -81,7 +81,7 @@ TC05 LOGIN WITH INCORRECT EMAIL FORMAT
     Sleep    2
     Capture Page Screenshot
 # Sorayut 
-TC06 LOGIN WITH INCORRECT EMAIL PASSWORD
+TC006 LOGIN WITH INCORRECT EMAIL PASSWORD
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot
@@ -98,7 +98,7 @@ TC06 LOGIN WITH INCORRECT EMAIL PASSWORD
     Capture Page Screenshot
 
 # Sorayut 
-TC07 LOGIN WITH EMAIL INCORRECT PASSWORD
+TC007 LOGIN WITH EMAIL INCORRECT PASSWORD
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot
@@ -114,7 +114,7 @@ TC07 LOGIN WITH EMAIL INCORRECT PASSWORD
     Sleep    2
     Capture Page Screenshot
 # Sorayut 
-TC08 LOGIN WITH CORRECT EMAIL PASSWORD
+TC008 LOGIN WITH CORRECT EMAIL PASSWORD
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot
@@ -131,7 +131,7 @@ TC08 LOGIN WITH CORRECT EMAIL PASSWORD
     Capture Page Screenshot
 
 # Sorayut 
-TC09 REGISTER BTRADER ACCOUNT 
+TC009 REGISTER BTRADER ACCOUNT 
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot    
@@ -172,7 +172,7 @@ TC010 REGISTER WITHOUT ANY FIELDS BTRADER ACCOUNT
 
 
 # Sorayut 
-TC11 REGISTER WITH ALREADY EXISTS EMAIL BTRADER ACCOUNT 
+TC011 REGISTER WITH ALREADY EXISTS EMAIL BTRADER ACCOUNT 
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot    
@@ -199,7 +199,7 @@ TC11 REGISTER WITH ALREADY EXISTS EMAIL BTRADER ACCOUNT
     Capture Page Screenshot  
 
 # Sorayut 
-TC12 REGISTER WITH ALREADY EXISTS IDCARD BTRADER ACCOUNT 
+TC012 REGISTER WITH ALREADY EXISTS IDCARD BTRADER ACCOUNT 
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot    
@@ -227,7 +227,7 @@ TC12 REGISTER WITH ALREADY EXISTS IDCARD BTRADER ACCOUNT
 
 
 # Sorayut 
-TC13 REGISTER WITH ALREADY EXISTS PHONENUMBER BTRADER ACCOUNT 
+TC013 REGISTER WITH ALREADY EXISTS PHONENUMBER BTRADER ACCOUNT 
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot    
