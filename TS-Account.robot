@@ -4,35 +4,8 @@ Library           SeleniumLibrary
 
 *** Test Cases ***
 
-# Sorayut 
-TC01 REGISTER BTRADER ACCOUNT
-    Open Browser    http://localhost:3000   Chrome
-    Maximize Browser Window
-    Capture Page Screenshot    
-    Click Button    id:signup
-    Capture Page Screenshot    
-    Sleep    2
-    Input Text  fullname    John Doe    
-    Capture Page Screenshot
-    Input Text  email    Johndoez@example.com    
-    Capture Page Screenshot
-    Input Text  idcard    1722632445692    
-    Capture Page Screenshot
-    Input Text  company    Microsoft    
-    Capture Page Screenshot
-    Input Text  phonenumber    0629360257 
-    Capture Page Screenshot
-    Input Password  password    securePassword123
-    Capture Page Screenshot
-    Input Password  confirmpassword    securePassword123
-    Capture Page Screenshot
-    Click Button    id:submitbutton
-    Capture Page Screenshot  
-    Sleep    2
-    Capture Page Screenshot  
-
-# # Sorayut  
-TC02 LOGIN WITHOUT EMAIL PASSWORD
+# Sorayut  
+TC01 LOGIN WITHOUT EMAIL PASSWORD
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot
@@ -45,7 +18,7 @@ TC02 LOGIN WITHOUT EMAIL PASSWORD
     Capture Page Screenshot
     
 # # Sorayut 
-TC03 LOGIN WITH ONLY EMAIL 
+TC02 LOGIN WITH ONLY EMAIL 
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot
@@ -60,7 +33,7 @@ TC03 LOGIN WITH ONLY EMAIL
     Capture Page Screenshot
 
 # # Sorayut 
-TC04 LOGIN WITH ONLY PASSWORD
+TC03 LOGIN WITH ONLY PASSWORD
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot
@@ -75,7 +48,7 @@ TC04 LOGIN WITH ONLY PASSWORD
     Capture Page Screenshot
 
 # # Sorayut  
-TC05 LOGIN WITH EMAIL PASSWORD BUT PASSWORD LOWER THAN 8 DIGIT
+TC04 LOGIN WITH EMAIL PASSWORD BUT PASSWORD LOWER THAN 8 DIGIT
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot
@@ -108,7 +81,7 @@ TC05 LOGIN WITH INCORRECT EMAIL FORMAT
     Sleep    2
     Capture Page Screenshot
 # Sorayut 
-TC07 LOGIN WITH INCORRECT EMAIL PASSWORD
+TC06 LOGIN WITH INCORRECT EMAIL PASSWORD
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot
@@ -125,7 +98,7 @@ TC07 LOGIN WITH INCORRECT EMAIL PASSWORD
     Capture Page Screenshot
 
 # Sorayut 
-TC08 LOGIN WITH EMAIL INCORRECT PASSWORD
+TC07 LOGIN WITH EMAIL INCORRECT PASSWORD
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot
@@ -141,7 +114,7 @@ TC08 LOGIN WITH EMAIL INCORRECT PASSWORD
     Sleep    2
     Capture Page Screenshot
 # Sorayut 
-TC09 LOGIN WITH CORRECT EMAIL PASSWORD
+TC08 LOGIN WITH CORRECT EMAIL PASSWORD
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot
@@ -156,3 +129,126 @@ TC09 LOGIN WITH CORRECT EMAIL PASSWORD
     Capture Page Screenshot
     Sleep    2
     Capture Page Screenshot
+
+# Sorayut 
+TC09 REGISTER BTRADER ACCOUNT 
+    Open Browser    http://localhost:3000   Chrome
+    Maximize Browser Window
+    Capture Page Screenshot    
+    Click Button    id:signup
+    Capture Page Screenshot    
+    Sleep    2
+    Input Text  fullname    John Doe    
+    Capture Page Screenshot
+    Input Text  email    Johndoez@example.com    
+    Capture Page Screenshot
+    Input Text  idcard    1722632445692    
+    Capture Page Screenshot
+    Input Text  company    Microsoft    
+    Capture Page Screenshot
+    Input Text  phonenumber    0629360257 
+    Capture Page Screenshot
+    Input Password  password    securePassword123
+    Capture Page Screenshot
+    Input Password  confirmpassword    securePassword123
+    Capture Page Screenshot
+    Click Button    id:submitbutton
+    Capture Page Screenshot  
+    Sleep    2
+    Capture Page Screenshot  
+
+# Sorayut 
+TC010 REGISTER WITHOUT ANY FIELDS BTRADER ACCOUNT 
+    Open Browser    http://localhost:3000   Chrome
+    Maximize Browser Window
+    Capture Page Screenshot    
+    Click Button    id:signup
+    Capture Page Screenshot    
+    Sleep    2
+    Click Button    id:submitbutton
+    Capture Page Screenshot  
+    Sleep    2
+    Capture Page Screenshot  
+
+
+# Sorayut 
+TC11 REGISTER WITH ALREADY EXISTS EMAIL BTRADER ACCOUNT 
+    Open Browser    http://localhost:3000   Chrome
+    Maximize Browser Window
+    Capture Page Screenshot    
+    Click Button    id:signup
+    Capture Page Screenshot    
+    Sleep    2
+    Input Text  fullname    John Doe    
+    Capture Page Screenshot
+    Input Text  email    Johndoez@example.com    
+    Capture Page Screenshot
+    Input Text  idcard    1722632445692    
+    Capture Page Screenshot
+    Input Text  company    Microsoft    
+    Capture Page Screenshot
+    Input Text  phonenumber    0629360257 
+    Capture Page Screenshot
+    Input Password  password    securePassword123
+    Capture Page Screenshot
+    Input Password  confirmpassword    securePassword123
+    Capture Page Screenshot
+    Click Button    id:submitbutton
+    Capture Page Screenshot  
+    Sleep    2
+    Capture Page Screenshot  
+
+# Sorayut 
+TC12 REGISTER WITH ALREADY EXISTS IDCARD BTRADER ACCOUNT 
+    Open Browser    http://localhost:3000   Chrome
+    Maximize Browser Window
+    Capture Page Screenshot    
+    Click Button    id:signup
+    Capture Page Screenshot    
+    Sleep    2
+    Input Text  fullname    John Doe    
+    Capture Page Screenshot
+    Input Text  email    Johndoez201@example.com    
+    Capture Page Screenshot
+    Input Text  idcard    1722632445692    
+    Capture Page Screenshot
+    Input Text  company    Microsoft    
+    Capture Page Screenshot
+    Input Text  phonenumber    0629360257 
+    Capture Page Screenshot
+    Input Password  password    securePassword123
+    Capture Page Screenshot
+    Input Password  confirmpassword    securePassword123
+    Capture Page Screenshot
+    Click Button    id:submitbutton
+    Capture Page Screenshot  
+    Sleep    2
+    Capture Page Screenshot  
+
+
+# Sorayut 
+TC13 REGISTER WITH ALREADY EXISTS PHONENUMBER BTRADER ACCOUNT 
+    Open Browser    http://localhost:3000   Chrome
+    Maximize Browser Window
+    Capture Page Screenshot    
+    Click Button    id:signup
+    Capture Page Screenshot    
+    Sleep    2
+    Input Text  fullname    John Doe    
+    Capture Page Screenshot
+    Input Text  email    Johndoez201@example.com    
+    Capture Page Screenshot
+    Input Text  idcard    1813232445692    
+    Capture Page Screenshot
+    Input Text  company    Microsoft    
+    Capture Page Screenshot
+    Input Text  phonenumber    0629360257 
+    Capture Page Screenshot
+    Input Password  password    securePassword123
+    Capture Page Screenshot
+    Input Password  confirmpassword    securePassword123
+    Capture Page Screenshot
+    Click Button    id:submitbutton
+    Capture Page Screenshot  
+    Sleep    2
+    Capture Page Screenshot  
