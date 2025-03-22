@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation   Test Registation and Use Gmail.
+Documentation   Test Manage Course in B-Trade.
 Library    SeleniumLibrary
 
 *** Test Cases ***
