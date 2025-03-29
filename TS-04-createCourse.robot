@@ -37,13 +37,19 @@ TC-01 Go To Sign in website then create course
     Click Element    //*[@id="startdate"]
     Sleep    3
     Capture Page Screenshot
-    Click Element    xpath://button[@name='day' and text()='${25}' and not(contains(@class, 'day-outside'))]
+    Click Element    //*[@name="next-month"]
+    Sleep    3
+    Capture Page Screenshot
+    Click Element    xpath://button[@name='day' and text()='${1}' and not(contains(@class, 'day-outside'))]
     Sleep    3
     Capture Page Screenshot
     Click Element    //*[@id="enddate"]
     Sleep    3
     Capture Page Screenshot
-    Click Element    xpath://button[@name='day' and text()='${29}' and not(contains(@class, 'day-outside'))]
+    Click Element    //*[@name="next-month"]
+    Sleep    3
+    Capture Page Screenshot
+    Click Element    xpath://button[@name='day' and text()='${4}' and not(contains(@class, 'day-outside'))]
     Sleep    3
     Capture Page Screenshot
     Input Text    //*[@name="location"]    Main Campus,Room102
