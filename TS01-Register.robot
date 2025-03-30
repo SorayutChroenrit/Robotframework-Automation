@@ -27,6 +27,7 @@ TC001 REGISTER BTRADER ACCOUNT
     Capture Page Screenshot
     Input Password  confirmpassword    securePassword1234
     Capture Page Screenshot
+    Sleep    2
     Click Button    id:submitbutton
     Capture Page Screenshot  
     Sleep    2
