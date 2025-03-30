@@ -9,10 +9,10 @@ TC001 REGISTER BTRADER ACCOUNT
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot    
-    Sleep    2
+    Sleep    5
     Click Button    id:signup
     Capture Page Screenshot    
-    Sleep    2
+    Sleep    10
     Input Text  fullname    John Doe    
     Capture Page Screenshot
     Input Text  email    Johndoez2014@example.com    
