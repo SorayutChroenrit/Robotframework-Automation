@@ -9,6 +9,7 @@ TC001 REGISTER BTRADER ACCOUNT
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot    
+    Sleep    2
     Click Button    id:signup
     Capture Page Screenshot    
     Sleep    2
