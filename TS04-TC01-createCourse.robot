@@ -76,7 +76,7 @@ TC-01 Go To Sign in website then create course
     Click Element    //*[@id="coursetag"]
     Sleep    2
     Capture Page Screenshot
-    Click Element    //*[@id="tag-newcourse"]
+    Click Element    //*[@for="tag-New Course"]
     Sleep    2
     Capture Page Screenshot
     Click Element    //*[@id="submit"]
