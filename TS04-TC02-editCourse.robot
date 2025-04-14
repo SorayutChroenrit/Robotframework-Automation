@@ -10,10 +10,10 @@ TC-02 Go Sign-in website then edit information course
     Click Element    //*[@id="signin"]
     Sleep    3
     Capture Page Screenshot
-    Input Text    //*[@id="email"]    kongpob.earth@example.com
+    Input Text    //*[@id="email"]    kongpob.123@example.com
     Sleep    2
     Capture Page Screenshot
-    Input Password    //*[@id="password"]    kongpobEarth1!
+    Input Password    //*[@id="password"]    KongPob1!
     Sleep    2
     Capture Page Screenshot
     Click Element    //*[@id="submit"]
