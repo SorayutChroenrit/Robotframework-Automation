@@ -6,13 +6,14 @@ Library           SeleniumLibrary
 
 # Sorayut 
 TC001 REGISTER BTRADER ACCOUNT 
+    [Tags]    register    positive
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot    
-    Sleep    5
+    Sleep    3
     Click Button    id:signup
     Capture Page Screenshot    
-    Sleep    10
+    Sleep    5
     Input Text  fullname    John Doe    
     Capture Page Screenshot
     Input Text  email    Johndoez2014@example.com    
@@ -32,18 +33,21 @@ TC001 REGISTER BTRADER ACCOUNT
     Capture Page Screenshot  
     Sleep    2
     Capture Page Screenshot  
-    Sleep    5
+    Sleep    2
     Capture Page Screenshot  
 
 
 # Sorayut 
 TC002 REGISTER WITHOUT ANY FIELDS BTRADER ACCOUNT 
+    [Tags]    register    negative
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
+    Capture Page Screenshot  
+    Sleep    3  
+    Click Button    id:signup   
     Capture Page Screenshot    
-    Click Button    id:signup
+    Sleep    5
     Capture Page Screenshot    
-    Sleep    2
     Click Button    id:submitbutton
     Capture Page Screenshot  
     Sleep    2
@@ -52,9 +56,11 @@ TC002 REGISTER WITHOUT ANY FIELDS BTRADER ACCOUNT
 
 # Sorayut 
 TC003 REGISTER WITH ALREADY EXISTS EMAIL BTRADER ACCOUNT 
+    [Tags]    register    negative
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
-    Capture Page Screenshot    
+    Capture Page Screenshot 
+    Sleep    3     
     Click Button    id:signup
     Capture Page Screenshot    
     Sleep    2
@@ -77,11 +83,14 @@ TC003 REGISTER WITH ALREADY EXISTS EMAIL BTRADER ACCOUNT
     Sleep    2
     Capture Page Screenshot  
 
+
 # Sorayut 
 TC004 REGISTER WITH ALREADY EXISTS IDCARD BTRADER ACCOUNT 
+    [Tags]    register    negative
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
-    Capture Page Screenshot    
+    Capture Page Screenshot  
+    Sleep    3       
     Click Button    id:signup
     Capture Page Screenshot    
     Sleep    2
@@ -105,11 +114,13 @@ TC004 REGISTER WITH ALREADY EXISTS IDCARD BTRADER ACCOUNT
     Capture Page Screenshot  
 
 
-# # Sorayut 
+# Sorayut 
 TC005 REGISTER WITH ALREADY EXISTS PHONENUMBER BTRADER ACCOUNT 
+    [Tags]    register    negative
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
-    Capture Page Screenshot    
+    Capture Page Screenshot 
+    Sleep    3       
     Click Button    id:signup
     Capture Page Screenshot    
     Sleep    2
@@ -133,12 +144,14 @@ TC005 REGISTER WITH ALREADY EXISTS PHONENUMBER BTRADER ACCOUNT
     Capture Page Screenshot  
 
 TC006 REGISTER WITH MISSMATCH PASSWORD BTRADER ACCOUNT 
+    [Tags]    register    negative
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
-    Capture Page Screenshot    
+    Capture Page Screenshot
+    Sleep    3           
     Click Button    id:signup
     Capture Page Screenshot    
-    Sleep    2
+    Sleep    3
     Input Text  fullname    John Doe    
     Capture Page Screenshot
     Input Text  email    Johndoez2012@example.com     
