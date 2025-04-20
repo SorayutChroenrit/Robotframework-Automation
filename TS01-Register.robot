@@ -35,6 +35,7 @@ TC001 REGISTER BTRADER ACCOUNT
     Capture Page Screenshot  
     Sleep    2
     Capture Page Screenshot  
+    Sleep    5
 
 
 # Sorayut 
@@ -52,6 +53,7 @@ TC002 REGISTER WITHOUT ANY FIELDS BTRADER ACCOUNT
     Capture Page Screenshot  
     Sleep    2
     Capture Page Screenshot  
+    Sleep    5
 
 
 # Sorayut 
@@ -82,6 +84,7 @@ TC003 REGISTER WITH ALREADY EXISTS EMAIL BTRADER ACCOUNT
     Capture Page Screenshot  
     Sleep    2
     Capture Page Screenshot  
+    Sleep    5
 
 
 # Sorayut 
@@ -112,6 +115,7 @@ TC004 REGISTER WITH ALREADY EXISTS IDCARD BTRADER ACCOUNT
     Capture Page Screenshot  
     Sleep    2
     Capture Page Screenshot  
+    Sleep    5
 
 
 # Sorayut 
@@ -142,6 +146,7 @@ TC005 REGISTER WITH ALREADY EXISTS PHONENUMBER BTRADER ACCOUNT
     Capture Page Screenshot  
     Sleep    2
     Capture Page Screenshot  
+    Sleep    5
 
 TC006 REGISTER WITH MISSMATCH PASSWORD BTRADER ACCOUNT 
     [Tags]    register    negative
@@ -170,3 +175,4 @@ TC006 REGISTER WITH MISSMATCH PASSWORD BTRADER ACCOUNT
     Capture Page Screenshot  
     Sleep    2
     Capture Page Screenshot  
+    Sleep    5

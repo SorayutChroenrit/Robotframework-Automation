@@ -16,7 +16,8 @@ TC001 LOGIN WITHOUT EMAIL PASSWORD
     Capture Page Screenshot
     Sleep    2
     Capture Page Screenshot
-    
+    Sleep    5
+
 # Sorayut 
 TC002 LOGIN WITH ONLY EMAIL 
     Open Browser    http://localhost:3000   Chrome
@@ -31,6 +32,7 @@ TC002 LOGIN WITH ONLY EMAIL
     Capture Page Screenshot
     Sleep    2
     Capture Page Screenshot
+    Sleep    5
 
 # Sorayut 
 TC003 LOGIN WITH ONLY PASSWORD
@@ -46,6 +48,7 @@ TC003 LOGIN WITH ONLY PASSWORD
     Capture Page Screenshot
     Sleep    2
     Capture Page Screenshot
+    Sleep    5
 
 # # Sorayut  
 TC004 LOGIN WITH EMAIL PASSWORD BUT PASSWORD LOWER THAN 8 DIGIT
@@ -63,6 +66,7 @@ TC004 LOGIN WITH EMAIL PASSWORD BUT PASSWORD LOWER THAN 8 DIGIT
     Capture Page Screenshot
     Sleep    2
     Capture Page Screenshot
+    Sleep    5
 
 # Sorayut
 TC005 LOGIN WITH INCORRECT EMAIL FORMAT 
@@ -80,6 +84,7 @@ TC005 LOGIN WITH INCORRECT EMAIL FORMAT
     Capture Page Screenshot
     Sleep    2
     Capture Page Screenshot
+    Sleep    5
 
 # Sorayut 
 TC006 LOGIN WITH INCORRECT EMAIL PASSWORD
@@ -97,6 +102,7 @@ TC006 LOGIN WITH INCORRECT EMAIL PASSWORD
     Capture Page Screenshot
     Sleep    2
     Capture Page Screenshot
+    Sleep    5
 
 # Sorayut 
 TC007 LOGIN WITH EMAIL INCORRECT PASSWORD
@@ -114,6 +120,7 @@ TC007 LOGIN WITH EMAIL INCORRECT PASSWORD
     Capture Page Screenshot
     Sleep    2
     Capture Page Screenshot
+    Sleep    5
 
 # # Sorayut 
 TC008 LOGIN WITH CORRECT EMAIL PASSWORD
@@ -131,4 +138,5 @@ TC008 LOGIN WITH CORRECT EMAIL PASSWORD
     Capture Page Screenshot
     Sleep    2
     Capture Page Screenshot
+    Sleep    5
 
