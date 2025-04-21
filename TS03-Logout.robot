@@ -21,7 +21,7 @@ TC-03 LogOut Project B-Tread
     Sleep   3
     Click Element    xpath:/html/body/div[1]/div/div/div/div/div/form/div/button/span
     Capture Page Screenshot
-    Sleep   2
+    Sleep   3
     Capture Page Screenshot
     Click Element    xpath:/html/body/div[1]/div/div/div[2]/div/div[1]/div[2]
     Sleep   3

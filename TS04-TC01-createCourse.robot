@@ -10,15 +10,16 @@ TC-01 Go To Sign in website then create course
     Click Element    //*[@id="signin"]
     Sleep    3
     Capture Page Screenshot
-    Input Text    //*[@id="email"]    kongpob.123@example.com
+    Input Text    //*[@id="email"]    JohnDoe@example.com
     Sleep    2
     Capture Page Screenshot
-    Input Password    //*[@id="password"]    KongPob1!
+    Input Password    //*[@id="password"]    securePassword123
     Sleep    2
     Capture Page Screenshot
     Click Element    xpath = /html/body/div[1]/div/div/div/div/div/form/div/button
     Sleep    2
     Capture Page Screenshot
+    Sleep    4
     Click Element    xpath = /html/body/div[1]/div/div/div[2]/div/div[2]/div/div[2]/ul/li[2]/a/span[2]
     Sleep    3
     Capture Page Screenshot

@@ -9,9 +9,10 @@ TC001 LOGIN WITHOUT EMAIL PASSWORD
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
     Capture Page Screenshot
+    Sleep    5
     Click Button    id:signin
     Capture Page Screenshot
-    Sleep    2
+    Sleep    4
     Click Button    id:submit
     Capture Page Screenshot
     Sleep    2
