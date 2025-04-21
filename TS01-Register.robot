@@ -123,6 +123,7 @@ TC005 REGISTER WITH ALREADY EXISTS PHONENUMBER BTRADER ACCOUNT
     [Tags]    register    negative
     Open Browser    http://localhost:3000   Chrome
     Maximize Browser Window
+    Sleep    10           
     Capture Page Screenshot 
     Sleep    3       
     Click Button    id:signup
