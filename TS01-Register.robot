@@ -13,7 +13,7 @@ TC001 REGISTER BTRADER ACCOUNT
     Sleep    3
     Click Button    id:signup
     Capture Page Screenshot    
-    Sleep    5
+    Sleep    10
     Input Text  fullname    John Doe    
     Capture Page Screenshot
     Input Text  email    Johndoez2014@example.com    
